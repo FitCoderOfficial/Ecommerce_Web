@@ -1,6 +1,6 @@
 from .base import *
 
-DEBUG = False
+DEBUG = config('DEBUG')
 ALLOWED_HOSTS = ['*']
 
 # Password validation
