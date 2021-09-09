@@ -7,4 +7,4 @@ def item_list(request):
 
     }
 
-    return render(request, "home-page.html", context)
+    return render(request, "home.html", context)
